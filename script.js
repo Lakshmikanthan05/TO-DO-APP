@@ -2,7 +2,7 @@
 
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("listcontainer");
-const funny = document.getElementById("ton");
+
 function addTask() {
   if (inputBox.value === '') {
     alert("you must write something!!");
